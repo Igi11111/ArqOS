@@ -1,0 +1,9 @@
+NAME="ArqOS"
+PRETTY_NAME="ArqOS Linux"
+ID=arqos
+ID_LIKE=arch
+ANSI_COLOR="1;34"
+HOME_URL="https://arqos.org"
+SUPPORT_URL="https://arqos.org/support"
+BUG_REPORT_URL="https://arqos.org/bugs"
+LOGO=arqos

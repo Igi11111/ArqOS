@@ -39,7 +39,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background: rgba(11,15,26,0.7);
+      background: rgba(18,0,24,0.7);
       backdrop-filter: blur(12px);
       z-index: 1000;
     }
@@ -48,6 +48,15 @@
       font-weight: 800;
       letter-spacing: 1px;
       color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    nav h1 img {
+      height: 40px;
+      width: 40px;
+      object-fit: contain;
     }
 
     nav ul {
@@ -214,12 +223,12 @@
 <body>
 
   <nav>
-    <h1>ArqOS</h1>
+    <h1><img src="logo.png" alt="ArqOS Logo" /> ArqOS</h1>
     <ul>
       <li><a href="#features">Features</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#installer">Installer</a></li>
-      <li><a href="#community">Community</a></li>
+      <li><a href="https://github.com/Igi11111/ArqOS" target="_blank">GitHub</a></li>
     </ul>
   </nav>
 
@@ -230,8 +239,8 @@
       and a focus on elegance, performance, and control.
     </p>
     <div class="cta" data-aos="fade-up" data-aos-delay="300">
-      <button class="btn primary">Download ISO</button>
-      <button class="btn secondary">View on GitHub</button>
+      <a href="https://github.com/Igi11111/ArqOS" target="_blank" class="btn primary">Download ISO</a>
+      <a href="https://github.com/Igi11111/ArqOS" target="_blank" class="btn secondary">View on GitHub</a>
     </div>
   </header>
 

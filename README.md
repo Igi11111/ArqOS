@@ -1,10 +1,10 @@
-ArqOS
+# ArqOS
 
-ArqOS is a Linux distribution based on Arch Linux, focused on simplicity, speed, and user control while keeping the Arch philosophy intact.
+## ArqOS is a Linux distribution based on Arch Linux, focused on simplicity, speed, and user control while keeping the Arch philosophy intact.
 
 The system uses a modified version of the Linexin Installer, originally created by Linexy, adapted specifically to fit the needs and vision of the ArqOS project.
 
-🚀 Features
+🚀 Features<br/>
 
 🧱 Arch Linux base – rolling release, up-to-date packages
 
@@ -14,9 +14,9 @@ The system uses a modified version of the Linexin Installer, originally created 
 
 🔧 Highly customizable – full control over the system
 
-📦 Pacman & AUR support – access to the full Arch ecosystem
+📦 Pacman & AUR support – access to the full Arch ecosystem<br/>
 
-🖥️ Installer
+🖥️ Installer<br/>
 
 ArqOS uses a customized version of the Linexin Installer, originally developed by Linexy.
 
@@ -56,7 +56,7 @@ Launch the ArqOS installer
 Follow the on-screen instructions
 
 ⚠️ Warning:
-ArqOS is intended for users who are familiar with Linux or willing to learn. It may not be suitable for beginners.
+**ArqOS is intended for users who are familiar with Linux or willing to learn. It may not be suitable for beginners.**
 
 📜 License
 
@@ -76,8 +76,8 @@ ArqOS contributors and testers
 
 GitHub Issues – bug reports and feature requests
 
-Pull Requests are welcome
-
-
-
+Pull Requests are welcome<br/>
+<br/>
+<br/>
+<br/>
 Linexin-Installer: https://github.com/Petexy/linexin-installer

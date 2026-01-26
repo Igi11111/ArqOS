@@ -77,3 +77,5 @@ ArqOS contributors and testers
 GitHub Issues – bug reports and feature requests
 
 Pull Requests are welcome
+
+Linexin-Installer: https://github.com/Petexy/linexin-installer

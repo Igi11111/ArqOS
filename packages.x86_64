@@ -172,6 +172,7 @@ konsole
 xdg-utils
 xorg
 xorg-xinit
+kwin
 
 # =========================================================
 # GTK / PYTHON (INSTALLER)

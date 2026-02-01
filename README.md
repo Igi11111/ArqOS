@@ -20,11 +20,8 @@ The system uses a modified version of the Linexin Installer, originally created 
 
 🖥️ Installer<br/>
 
-<<<<<<< HEAD
 ArqOS uses a customized version of the Linexin Installer, originally developed by Linexy.
-=======
 ArqOS uses a customized version of the Linexin Installer, originally developed by Petexy/Linexy.
->>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
 
 Changes include:
 

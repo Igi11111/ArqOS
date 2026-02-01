@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArqOS – Arch, Reimagined</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --bg-soft: #1a1a1a;
+      --primary: #ff8c42;
+      --accent: #ff6b35;
+      --text: #e5e5e5;
+      --muted: #a3a3a3;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top, #262626, var(--bg));
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: rgba(15,15,15,0.85);
+      backdrop-filter: blur(12px);
+      z-index: 1000;
+      border-bottom: 1px solid rgba(255, 140, 66, 0.1);
+    }
+
+    nav h1 {
+      font-weight: 800;
+      letter-spacing: 1px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    nav h1 img {
+      height: 60px;
+      width: 60px;
+      object-fit: contain;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    nav a:hover::after { width: 100%; }
+
+    /* HERO */
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    header h2 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 800;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+
+    .cta {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .btn {
+      padding: 0.9rem 1.6rem;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .btn.primary {
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      color: #0f0f0f;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--primary);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 40px rgba(255, 140, 66, 0.35);
+    }
+
+    /* SHOWCASE IMAGE */
+    .showcase {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .showcase-img {
+      width: 100%;
+      max-width: 1000px;
+      border-radius: 1.5rem;
+      border: 1px solid rgba(255, 140, 66, 0.2);
+      box-shadow: 0 20px 60px rgba(255, 140, 66, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .showcase-img:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 25px 80px rgba(255, 140, 66, 0.25);
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 6rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h3 {
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: var(--bg-soft);
+      padding: 2rem;
+      border-radius: 1.5rem;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255, 140, 66, 0.1);
+      transition: border-color 0.3s ease;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, transparent, rgba(255, 140, 66, 0.15), transparent);
+      transform: translateX(-100%);
+      transition: transform 0.6s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(255, 140, 66, 0.3);
+    }
+
+    .card:hover::before { transform: translateX(100%); }
+
+    .card h4 {
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+    }
+    .card p { color: var(--muted); }
+
+    /* TABS */
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .tab {
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 140, 66, 0.3);
+      cursor: pointer;
+      transition: all 0.3s;
+      color: var(--text);
+    }
+
+    .tab:hover {
+      border-color: var(--primary);
+    }
+
+    .tab.active {
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      color: #0f0f0f;
+      border-color: transparent;
+    }
+
+    .tab-content {
+      display: none;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .tab-content.active { display: block; }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--muted);
+      border-top: 1px solid rgba(255, 140, 66, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1><img src="logo.png" alt="ArqOS Logo" /> ArqOS</h1>
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#installer">Installer</a></li>
+      <li><a href="https://github.com/Igi11111/ArqOS" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2 data-aos="fade-up">Arch, Reimagined.</h2>
+    <p data-aos="fade-up" data-aos-delay="150">
+      ArqOS is a modern Arch-based Linux distribution with a custom installer
+      and a focus on elegance, performance, and control.
+    </p>
+    <div class="cta" data-aos="fade-up" data-aos-delay="300">
+      <a href="https://drive.google.com/file/d/1zKQtPjgKakyPYHoD1IoURtmtnOqlMJN0/view?usp=sharing" target="_blank" class="btn primary">Download ISO</a>
+      <a href="https://github.com/Igi11111/ArqOS" target="_blank" class="btn secondary">View on GitHub</a>
+    </div>
+  </header>
+
+  <div class="showcase">
+    <img src="screenshot.png" alt="ArqOS Screenshot" class="showcase-img" data-aos="fade-up" />
+  </div>
+
+  <section id="features">
+    <h3 data-aos="fade-up">Features</h3>
+    <div class="features">
+      <div class="card" data-aos="zoom-in">
+        <h4>Arch Linux Base</h4>
+        <p>Rolling release with access to the full Arch ecosystem.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">
+        <h4>Custom Installer</h4>
+        <p>Modified Linexin Installer adapted specifically for ArqOS.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <h4>Minimal & Fast</h4>
+        <p>No bloat, no compromises. Only what you need.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h3 data-aos="fade-up">Why ArqOS?</h3>
+    <div class="tabs">
+      <div class="tab active" onclick="openTab(0)">Vision</div>
+      <div class="tab" onclick="openTab(1)">Philosophy</div>
+      <div class="tab" onclick="openTab(2)">Audience</div>
+    </div>
+
+    <div class="tab-content active">
+      A refined Arch experience with a modern installation flow.
+    </div>
+    <div class="tab-content">
+      User control, transparency, and performance first.
+    </div>
+    <div class="tab-content">
+      Power users, developers, and Arch enthusiasts.
+    </div>
+  </section>
+
+  <section id="installer">
+    <h3 data-aos="fade-up">Installer</h3>
+    <p data-aos="fade-up" style="text-align:center; max-width:700px; margin:auto;">
+      ArqOS uses a customized version of the Linexin Installer originally created by Linexy,
+      redesigned for clarity, speed, and consistency.
+    </p>
+  </section>
+
+  <footer id="community">
+    <p>© 2026 ArqOS Project · Built on Arch Linux</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 900, easing: 'ease-out-cubic' });
+
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+
+    function openTab(index) {
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => c.classList.remove('active'));
+      tabs[index].classList.add('active');
+      contents[index].classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

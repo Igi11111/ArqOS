@@ -1,0 +1,229 @@
+# =========================================================
+# SYSTEM BASE (REQUIRED)
+# =========================================================
+base
+base-devel
+linux
+linux-firmware
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+arch-install-scripts
+archinstall
+amd-ucode
+intel-ucode
+
+# =========================================================
+# BOOTLOADER / EFI
+# =========================================================
+grub
+efibootmgr
+os-prober
+refind
+syslinux
+edk2-shell
+
+# =========================================================
+# FILE SYSTEM / STORAGE
+# =========================================================
+btrfs-progs
+xfsprogs
+f2fs-tools
+e2fsprogs
+dosfstools
+exfatprogs
+ntfs-3g
+jfsutils
+nilfs-utils
+udftools
+fatresize
+bcachefs-tools
+
+# =========================================================
+# DISK / RECOVERY / PARTITIONING
+# =========================================================
+gptfdisk
+parted
+gparted
+partclone
+partimage
+fsarchiver
+testdisk
+ddrescue
+clonezilla
+memtest86+
+memtest86+-efi
+lvm2
+mdadm
+dmraid
+nbd
+nvme-cli
+sdparm
+sg3_utils
+smartmontools
+gnome-disk-utility
+
+# =========================================================
+# NETWORK / INTERNET
+# =========================================================
+networkmanager
+iwd
+wpa_supplicant
+wireless_tools
+wireless-regdb
+iw
+ethtool
+tcpdump
+nmap
+openssh
+openvpn
+openconnect
+vpnc
+pptpclient
+xl2tpd
+ppp
+wvdial
+bind
+dnsmasq
+dhcpcd
+ndisc6
+open-iscsi
+nfs-utils
+iptables-nft
+ca-certificates
+ca-certificates-utils
+
+# =========================================================
+# AUDIO
+# =========================================================
+alsa-utils
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+wireplumber
+sof-firmware
+espeakup
+brltty
+livecd-sounds
+
+# =========================================================
+# GPU / VM / FIRMWARE
+# =========================================================
+linux-firmware-marvell
+hyperv
+open-vm-tools
+virtualbox-guest-utils-nox
+qemu-guest-agent
+
+# =========================================================
+# SMARTCARD / TPM / SECURITY
+# =========================================================
+cryptsetup
+tpm2-tools
+tpm2-tss
+pcsclite
+libfido2
+openpgp-card-tools
+sequoia-sq
+
+# =========================================================
+# USB / MOBILE / HW
+# =========================================================
+usbutils
+usb_modeswitch
+usbmuxd
+libusb-compat
+bolt
+lsscsi
+mmc-utils
+hdparm
+dmidecode
+
+# =========================================================
+# TERMINALS / SHELL / CLI
+# =========================================================
+zsh
+grml-zsh-config
+bash-completion
+tmux
+screen
+mc
+less
+nano
+vim
+pv
+rsync
+lftp
+lynx
+irssi
+man-db
+man-pages
+terminus-font
+foot-terminfo
+kitty-terminfo
+rxvt-unicode-terminfo
+
+# =========================================================
+# DESKTOP: KDE PLASMA
+# =========================================================
+plasma-desktop
+sddm
+konsole
+xdg-utils
+xorg
+xorg-xinit
+kwin-x11
+
+# =========================================================
+# GTK / PYTHON (INSTALLER)
+# =========================================================
+python
+python-gobject
+python-pillow
+python-cairo
+gtk4
+libadwaita
+webkitgtk-6.0
+qt6-multimedia-ffmpeg
+libsoup3
+
+# =========================================================
+# APLIKACJE UŻYTKOWE
+# =========================================================
+firefox
+fastfetch
+paru
+discover
+flatpak
+
+# =========================================================
+# TOOLS LIVE / NETWORK / CLOUD
+# =========================================================
+cloud-init
+darkhttpd
+reflector
+systemd-resolvconf
+
+# =========================================================
+# DRIVERS WI-FI (BROADCOM)
+# =========================================================
+b43-fwcutter
+broadcom-wl
+
+# =========================================================
+# DRIVERS
+# =========================================================
+mesa
+vulkan-radeon
+vulkan-intel
+vulkan-mesa-layers
+xf86-video-nouveau
+xf86-video-intel
+xf86-video-amdgpu
+libglvnd
+
+# =========================================================
+# INSTALLER
+# =========================================================
+arqos-installer

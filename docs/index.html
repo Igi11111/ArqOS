@@ -13,19 +13,32 @@
 
   <style>
     :root {
+<<<<<<< HEAD
       --bg: #0f0f0f;
       --bg-soft: #1a1a1a;
       --primary: #ff8c42;
       --accent: #ff6b35;
       --text: #e5e5e5;
       --muted: #a3a3a3;
+=======
+      --bg: #120018;
+      --bg-soft: #1a0226;
+      --primary: #f472b6; /* pink */
+      --accent: #a855f7;  /* violet */
+      --text: #f5d0fe;
+      --muted: #d8b4fe;
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Inter', sans-serif;
+<<<<<<< HEAD
       background: radial-gradient(circle at top, #262626, var(--bg));
+=======
+      background: radial-gradient(circle at top, #2a0036, var(--bg));
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
       color: var(--text);
       overflow-x: hidden;
     }
@@ -39,26 +52,41 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
+<<<<<<< HEAD
       background: rgba(15,15,15,0.85);
       backdrop-filter: blur(12px);
       z-index: 1000;
       border-bottom: 1px solid rgba(255, 140, 66, 0.1);
+=======
+      background: rgba(18,0,24,0.7);
+      backdrop-filter: blur(12px);
+      z-index: 1000;
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     nav h1 {
       font-weight: 800;
       letter-spacing: 1px;
+<<<<<<< HEAD
       background: linear-gradient(90deg, var(--primary), var(--accent));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+=======
+      color: var(--primary);
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
       display: flex;
       align-items: center;
       gap: 0.5rem;
     }
 
     nav h1 img {
+<<<<<<< HEAD
       height: 60px;
       width: 60px;
+=======
+      height: 60px; /* Increased from 40px */
+      width: 60px;  /* Increased from 40px */
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
       object-fit: contain;
     }
 
@@ -73,7 +101,10 @@
       text-decoration: none;
       font-weight: 500;
       position: relative;
+<<<<<<< HEAD
       transition: color 0.3s ease;
+=======
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     nav a::after {
@@ -83,6 +114,7 @@
       bottom: -4px;
       width: 0;
       height: 2px;
+<<<<<<< HEAD
       background: linear-gradient(90deg, var(--primary), var(--accent));
       transition: width 0.3s ease;
     }
@@ -91,6 +123,12 @@
       color: var(--primary);
     }
 
+=======
+      background: var(--accent);
+      transition: width 0.3s ease;
+    }
+
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     nav a:hover::after { width: 100%; }
 
     /* HERO */
@@ -136,17 +174,26 @@
 
     .btn.primary {
       background: linear-gradient(90deg, var(--primary), var(--accent));
+<<<<<<< HEAD
       color: #0f0f0f;
+=======
+      color: #020617;
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     .btn.secondary {
       background: transparent;
       color: var(--text);
+<<<<<<< HEAD
       border: 1px solid var(--primary);
+=======
+      border: 1px solid var(--accent);
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     .btn:hover {
       transform: translateY(-3px);
+<<<<<<< HEAD
       box-shadow: 0 15px 40px rgba(255, 140, 66, 0.35);
     }
 
@@ -170,6 +217,9 @@
     .showcase-img:hover {
       transform: translateY(-5px);
       box-shadow: 0 25px 80px rgba(255, 140, 66, 0.25);
+=======
+      box-shadow: 0 15px 40px rgba(168,85,247,0.35);
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     /* SECTIONS */
@@ -183,9 +233,12 @@
       font-size: 2.2rem;
       margin-bottom: 2rem;
       text-align: center;
+<<<<<<< HEAD
       background: linear-gradient(90deg, var(--primary), var(--accent));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+=======
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     .features {
@@ -200,19 +253,27 @@
       border-radius: 1.5rem;
       position: relative;
       overflow: hidden;
+<<<<<<< HEAD
       border: 1px solid rgba(255, 140, 66, 0.1);
       transition: border-color 0.3s ease;
+=======
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     .card::before {
       content: '';
       position: absolute;
       inset: 0;
+<<<<<<< HEAD
       background: linear-gradient(120deg, transparent, rgba(255, 140, 66, 0.15), transparent);
+=======
+      background: linear-gradient(120deg, transparent, rgba(244,114,182,0.18), transparent);
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
       transform: translateX(-100%);
       transition: transform 0.6s ease;
     }
 
+<<<<<<< HEAD
     .card:hover {
       border-color: rgba(255, 140, 66, 0.3);
     }
@@ -223,6 +284,11 @@
       margin-bottom: 0.5rem;
       color: var(--primary);
     }
+=======
+    .card:hover::before { transform: translateX(100%); }
+
+    .card h4 { margin-bottom: 0.5rem; }
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     .card p { color: var(--muted); }
 
     /* TABS */
@@ -236,6 +302,7 @@
     .tab {
       padding: 0.6rem 1.2rem;
       border-radius: 999px;
+<<<<<<< HEAD
       border: 1px solid rgba(255, 140, 66, 0.3);
       cursor: pointer;
       transition: all 0.3s;
@@ -250,6 +317,16 @@
       background: linear-gradient(90deg, var(--primary), var(--accent));
       color: #0f0f0f;
       border-color: transparent;
+=======
+      border: 1px solid var(--accent);
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .tab.active {
+      background: var(--accent);
+      color: #020617;
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
 
     .tab-content {
@@ -265,7 +342,10 @@
       text-align: center;
       padding: 3rem 1rem;
       color: var(--muted);
+<<<<<<< HEAD
       border-top: 1px solid rgba(255, 140, 66, 0.1);
+=======
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
     }
   </style>
 </head>
@@ -293,10 +373,13 @@
     </div>
   </header>
 
+<<<<<<< HEAD
   <div class="showcase">
     <img src="screenshot.png" alt="ArqOS Screenshot" class="showcase-img" data-aos="fade-up" />
   </div>
 
+=======
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
   <section id="features">
     <h3 data-aos="fade-up">Features</h3>
     <div class="features">

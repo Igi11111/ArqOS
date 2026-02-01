@@ -61,7 +61,10 @@ nvme-cli
 sdparm
 sg3_utils
 smartmontools
+<<<<<<< HEAD
 gnome-disk-utility
+=======
+>>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
 
 # =========================================================
 # NETWORK / INTERNET

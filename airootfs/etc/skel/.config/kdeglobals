@@ -3,3 +3,6 @@ LookAndFeelPackage=org.kde.breezedark.desktop
 
 [General]
 ColorScheme=BreezeDark
+
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Arq_default.jpg

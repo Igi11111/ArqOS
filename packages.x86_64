@@ -61,10 +61,7 @@ nvme-cli
 sdparm
 sg3_utils
 smartmontools
-<<<<<<< HEAD
 gnome-disk-utility
-=======
->>>>>>> 68905857b8097a3b308e6d0d97b5f5563145ff09
 
 # =========================================================
 # NETWORK / INTERNET
@@ -168,6 +165,15 @@ kitty-terminfo
 rxvt-unicode-terminfo
 
 # =========================================================
+# APPS
+# =========================================================
+firefox
+fastfetch
+paru
+discover
+flatpak
+
+# =========================================================
 # DESKTOP: KDE PLASMA
 # =========================================================
 plasma-desktop
@@ -177,6 +183,25 @@ xdg-utils
 xorg
 xorg-xinit
 kwin-x11
+
+# =========================================================
+# DESKTOP: GNOME
+# =========================================================
+gdm
+gnome-shell
+gnome-control-center
+gnome-system-monitor
+gnome-terminal
+nautilus
+gnome-keyring
+gnome-backgrounds
+gnome-session
+gnome-settings-daemon
+gvfs
+gvfs-mtp
+gvfs-smb
+xdg-desktop-portal-gnome
+xdg-user-dirs-gtk
 
 # =========================================================
 # GTK / PYTHON (INSTALLER)
@@ -190,15 +215,6 @@ libadwaita
 webkitgtk-6.0
 qt6-multimedia-ffmpeg
 libsoup3
-
-# =========================================================
-# APLIKACJE UŻYTKOWE
-# =========================================================
-firefox
-fastfetch
-paru
-discover
-flatpak
 
 # =========================================================
 # TOOLS LIVE / NETWORK / CLOUD

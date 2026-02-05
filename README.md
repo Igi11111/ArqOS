@@ -2,8 +2,8 @@
 
 ## ArqOS is a Linux distribution based on Arch Linux, focused on simplicity, speed, and user control while keeping the Arch philosophy intact.
 
-### https://igi11111.github.io/ArqOS/
-
+### Website: https://igi11111.github.io/ArqOS/
+### Discord: https://discord.gg/FgBBCnzdM
 The system uses a modified version of the Linexin Installer, originally created by Linexy, adapted specifically to fit the needs and vision of the ArqOS project.
 
 🚀 Features<br/>

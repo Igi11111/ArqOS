@@ -184,24 +184,6 @@ xorg
 xorg-xinit
 kwin-x11
 
-# =========================================================
-# DESKTOP: GNOME
-# =========================================================
-gdm
-gnome-shell
-gnome-control-center
-gnome-system-monitor
-gnome-terminal
-nautilus
-gnome-keyring
-gnome-backgrounds
-gnome-session
-gnome-settings-daemon
-gvfs
-gvfs-mtp
-gvfs-smb
-xdg-desktop-portal-gnome
-xdg-user-dirs-gtk
 
 # =========================================================
 # GTK / PYTHON (INSTALLER)

@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="arqos"
-iso_label="ARQ_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_label="ARQOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="ArqOS Linux <https://igi11111.github.io/ArqOS/>"
 iso_application="ArqOS live"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
@@ -10,6 +10,7 @@ install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux'
            'uefi.systemd-boot')
+arch="x86_64"
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
 airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
@@ -23,9 +24,3 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
 )
-
-mkdir -p ~/arqos/releng/airootfs/etc/skel/.config
-cat > ~/arqos/releng/airootfs/etc/skel/.config/kdeglobals << 'EOF'
-[Wallpaper]
-Image=/usr/share/wallpapers/Arq_default.jpg
-EOF

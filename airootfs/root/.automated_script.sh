@@ -42,3 +42,5 @@ automated_script() {
 if [[ $(tty) == "/dev/tty1" ]]; then
     automated_script
 fi
+
+plasma-apply-wallpaperimage /usr/share/wallpapers/ArqOS/arq_default.jpg

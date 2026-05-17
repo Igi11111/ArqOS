@@ -1,0 +1,121 @@
+{
+    "logo": {
+        "source": "/etc/fastfetch/arqos.txt",
+        "padding": {
+            "top": 1,
+            "left": 2
+        },
+        "color": {
+            "1": "214",
+            "2": "white",
+            "3": "220"
+        }
+    },
+
+    "display": {
+        "separator": "  ➜  "
+    },
+
+    "modules": [
+        {
+            "type": "title",
+            "color": {
+                "user": "214",
+                "at": "white",
+                "host": "214"
+            }
+        },
+
+        {
+            "type": "separator",
+            "string": "────────────────────────",
+            "color": "214"
+        },
+
+        {
+            "type": "os",
+            "key": "󰣇 OS",
+            "keyColor": "214"
+        },
+        {
+            "type": "kernel",
+            "key": "󰒋 Kernel",
+            "keyColor": "214"
+        },
+        {
+            "type": "packages",
+            "key": "󰏖 Packages",
+            "keyColor": "214"
+        },
+        {
+            "type": "uptime",
+            "key": "󰅐 Uptime",
+            "keyColor": "214"
+        },
+
+        {
+            "type": "separator",
+            "string": "────────────────────────",
+            "color": "white"
+        },
+
+        {
+            "type": "shell",
+            "key": " Shell",
+            "keyColor": "214"
+        },
+        {
+            "type": "de",
+            "key": "󰧨 DE",
+            "keyColor": "214"
+        },
+        {
+            "type": "wm",
+            "key": "󱂬 WM",
+            "keyColor": "214"
+        },
+        {
+            "type": "terminal",
+            "key": "󰆍 Terminal",
+            "keyColor": "214"
+        },
+
+        {
+            "type": "separator",
+            "string": "────────────────────────",
+            "color": "214"
+        },
+
+        {
+            "type": "cpu",
+            "key": "󰻠 CPU",
+            "keyColor": "214"
+        },
+        {
+            "type": "gpu",
+            "key": "󰢮 GPU",
+            "keyColor": "214"
+        },
+        {
+            "type": "memory",
+            "key": "󰍛 Memory",
+            "keyColor": "214"
+        },
+        {
+            "type": "disk",
+            "key": "󰋊 Disk",
+            "keyColor": "214"
+        },
+
+        {
+            "type": "separator",
+            "string": "────────────────────────",
+            "color": "white"
+        },
+
+        {
+            "type": "colors",
+            "paddingLeft": 2
+        }
+    ]
+}

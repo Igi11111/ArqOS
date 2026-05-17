@@ -163,6 +163,7 @@ terminus-font
 foot-terminfo
 kitty-terminfo
 rxvt-unicode-terminfo
+ttf-jetbrains-mono-nerd
 
 # =========================================================
 # APPS

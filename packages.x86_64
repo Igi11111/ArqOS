@@ -173,12 +173,18 @@ fastfetch
 paru
 discover
 flatpak
+wine
+# electron22
+# sonixd-bin
+# bombelium-benchmark
 
 # =========================================================
 # DESKTOP: KDE PLASMA
 # =========================================================
 plasma-desktop
 sddm
+sddm-sugar-candy-git
+# chili-sddm-theme
 konsole
 xdg-utils
 xorg
@@ -225,6 +231,7 @@ libglvnd
 # INSTALLER
 # =========================================================
 arqos-installer
+# arq-hello
 
 # =========================================================
 # GNOME(temporary)

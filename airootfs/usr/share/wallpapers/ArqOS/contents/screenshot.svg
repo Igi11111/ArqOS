@@ -8,61 +8,65 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
-   sodipodi:docname="ArqOS-Orange.svg"
-   xml:space="preserve"
-   inkscape:export-filename="temp.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   sodipodi:docname="Arch.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
      id="namedview1"
      pagecolor="#505050"
-     bordercolor="#ffffff"
+     bordercolor="#eeeeee"
      borderopacity="1"
      inkscape:showpageshadow="0"
      inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="false"
+     inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="0.11464693"
-     inkscape:cx="885.3268"
-     inkscape:cy="444.84401"
+     inkscape:cx="21.806079"
+     inkscape:cy="1142.6385"
      inkscape:window-width="1920"
      inkscape:window-height="939"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:export-bgcolor="#00141dff" /><defs
-     id="defs1" /><g
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1"
+       x="-1.0719541"
+       y="-1.0719541"
+       width="3.1439083"
+       height="3.1439083">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="131.88441"
+         id="feGaussianBlur1" />
+    </filter>
+  </defs>
+  <g
      inkscape:label="Warstwa 1"
      inkscape:groupmode="layer"
-     id="layer1"><rect
-       style="fill:#00141d;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:0"
+     id="layer1">
+    <rect
+       style="fill:#00141d;fill-opacity:1;stroke:#000000;stroke-width:1.18358;stroke-opacity:0"
        id="rect1"
-       width="1016"
-       height="571.5"
-       x="-2.0428104e-14"
-       y="9.7699626e-15" /><circle
-       style="fill:#f58749;fill-opacity:0.756865;stroke:#000000;stroke-width:0.680343;stroke-opacity:0"
-       id="path1-3-3"
-       cx="3.9817173"
-       cy="6.2990327"
-       r="216.60033" /><circle
-       style="fill:#f58749;fill-opacity:0.756865;stroke:#000000;stroke-width:0.680343;stroke-opacity:0"
-       id="path1-3-3-1"
-       cx="1014.0165"
-       cy="564.47162"
-       r="216.60033" /><circle
-       style="fill:#ff853f;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:0"
-       id="path14"
+       width="1014.8164"
+       height="570.31641"
+       x="0.59179688"
+       y="0.59179688" />
+    <circle
+       style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:0;filter:url(#filter1)"
+       id="path1"
        cx="508"
        cy="285.75"
-       r="80.777473"
-       inkscape:label="path14" /><image
+       r="147.69983" />
+    <image
        width="165.89276"
        height="247.14635"
        preserveAspectRatio="none"
@@ -70,24 +74,6 @@
        id="image1"
        x="425.05362"
        y="162.17682"
-       inkscape:label="Logo" /><circle
-       style="fill:#ff853f;stroke:#000000;stroke-width:0.539607;stroke-opacity:0"
-       id="path1"
-       cx="1014.0165"
-       cy="564.47162"
-       r="171.79433" /><circle
-       style="fill:#ff853f;stroke:#000000;stroke-width:0.539607;stroke-opacity:0"
-       id="path1-3"
-       cx="3.9817173"
-       cy="6.2990327"
-       r="171.79433" /><circle
-       style="fill:#e78457;fill-opacity:1;stroke:#000000;stroke-width:0.241596;stroke-opacity:0.00005787"
-       id="path3"
-       cx="3.9817173"
-       cy="6.2990327"
-       r="137.08841" /><circle
-       style="fill:#e78457;fill-opacity:1;stroke:#000000;stroke-width:0.241596;stroke-opacity:0"
-       id="path3-3"
-       cx="1014.0165"
-       cy="564.47162"
-       r="137.08841" /></g></svg>
+       inkscape:label="Logo" />
+  </g>
+</svg>

@@ -85,6 +85,7 @@ ArqOS follows the licenses of its upstream projects, including Arch Linux and th
 * Arch Linux for the base system
 * Linexy for the original Linexin Installer
 * ArqOS contributors, testers, and community members
+* Thanks for Dark who made wallpapers
 
 ---
 

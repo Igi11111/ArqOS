@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
-   sodipodi:docname="ArqOS-Orange.svg"
+   sodipodi:docname="3840x2160.svg"
    xml:space="preserve"
    inkscape:export-filename="temp.png"
    inkscape:export-xdpi="96"
@@ -28,7 +28,7 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="0.11464693"
-     inkscape:cx="885.3268"
+     inkscape:cx="880.96559"
      inkscape:cy="444.84401"
      inkscape:window-width="1920"
      inkscape:window-height="939"
@@ -36,7 +36,9 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:export-bgcolor="#00141dff" /><defs
+     inkscape:export-bgcolor="#00141dff"
+     showborder="false"
+     borderlayer="false" /><defs
      id="defs1" /><g
      inkscape:label="Warstwa 1"
      inkscape:groupmode="layer"

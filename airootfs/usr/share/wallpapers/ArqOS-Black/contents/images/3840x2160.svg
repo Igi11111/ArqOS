@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
-   sodipodi:docname="ArqOS-Black.svg"
+   sodipodi:docname="3840x2160.svg"
    inkscape:export-filename="1920x1080.png"
    inkscape:export-xdpi="48"
    inkscape:export-ydpi="48"
@@ -28,7 +28,7 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
      inkscape:zoom="0.16213524"
-     inkscape:cx="663.02674"
+     inkscape:cx="659.9429"
      inkscape:cy="1936.6549"
      inkscape:window-width="1920"
      inkscape:window-height="939"
@@ -38,8 +38,8 @@
      inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#000000ff"
      inkscape:lockguides="false"
-     borderlayer="true"
-     showborder="true"
+     borderlayer="false"
+     showborder="false"
      inkscape:antialias-rendering="true" />
   <defs
      id="defs1" />

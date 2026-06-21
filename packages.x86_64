@@ -68,6 +68,7 @@ gnome-disk-utility
 # NETWORK / INTERNET
 # =========================================================
 networkmanager
+plasma-nm
 iwd
 wpa_supplicant
 wireless_tools

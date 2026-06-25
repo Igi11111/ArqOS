@@ -146,6 +146,7 @@ dmidecode
 # TERMINALS / SHELL / CLI
 # =========================================================
 zsh
+sudo
 bash-completion
 tmux
 screen
@@ -192,7 +193,8 @@ xdg-utils
 xorg
 xorg-xinit
 kwin-x11
-
+xdg-desktop-portal-kde
+kvantum
 
 # =========================================================
 # GTK / PYTHON (INSTALLER)

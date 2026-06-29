@@ -39,6 +39,8 @@ udftools
 fatresize
 bcachefs-tools
 dolphin
+btrfs-assistant
+snapper
 
 # =========================================================
 # DISK / RECOVERY / PARTITIONING

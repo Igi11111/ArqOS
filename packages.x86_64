@@ -178,6 +178,8 @@ paru
 discover
 flatpak
 wine
+htop
+pavucontrol
 arq-pkg-manager
 # electron22
 # sonixd-bin
@@ -197,6 +199,7 @@ xorg-xinit
 kwin-x11
 xdg-desktop-portal-kde
 kvantum
+plasma-pa
 
 # =========================================================
 # GTK / PYTHON (INSTALLER)

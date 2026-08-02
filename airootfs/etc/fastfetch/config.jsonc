@@ -6,9 +6,9 @@
             "left": 2
         },
         "color": {
-            "1": "214",
+            "1": "white",
             "2": "white",
-            "3": "220"
+            "3": "white"
         }
     },
 
@@ -20,37 +20,37 @@
         {
             "type": "title",
             "color": {
-                "user": "214",
+                "user": "white",
                 "at": "white",
-                "host": "214"
+                "host": "white"
             }
         },
 
         {
             "type": "separator",
             "string": "────────────────────────",
-            "color": "214"
+            "color": "white"
         },
 
         {
             "type": "os",
             "key": "󰣇 OS",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "kernel",
             "key": "󰒋 Kernel",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "packages",
             "key": "󰏖 Packages",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "uptime",
             "key": "󰅐 Uptime",
-            "keyColor": "214"
+            "keyColor": "white"
         },
 
         {
@@ -62,49 +62,49 @@
         {
             "type": "shell",
             "key": " Shell",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "de",
             "key": "󰧨 DE",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "wm",
             "key": "󱂬 WM",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "terminal",
             "key": "󰆍 Terminal",
-            "keyColor": "214"
+            "keyColor": "white"
         },
 
         {
             "type": "separator",
             "string": "────────────────────────",
-            "color": "214"
+            "color": "white"
         },
 
         {
             "type": "cpu",
             "key": "󰻠 CPU",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "gpu",
             "key": "󰢮 GPU",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "memory",
             "key": "󰍛 Memory",
-            "keyColor": "214"
+            "keyColor": "white"
         },
         {
             "type": "disk",
             "key": "󰋊 Disk",
-            "keyColor": "214"
+            "keyColor": "white"
         },
 
         {

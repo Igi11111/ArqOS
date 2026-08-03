@@ -22,6 +22,7 @@ os-prober
 refind
 syslinux
 edk2-shell
+plymouth
 
 # =========================================================
 # FILE SYSTEM / STORAGE

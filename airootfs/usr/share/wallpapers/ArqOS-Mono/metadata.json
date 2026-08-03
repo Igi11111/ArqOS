@@ -1,0 +1,12 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Dark"
+            }
+        ],
+        "Id": "ArqOS-Mono",
+        "License": "CC BY-NC-SA 3.0",
+        "Name": "ArqOS-Mono"
+    }
+}

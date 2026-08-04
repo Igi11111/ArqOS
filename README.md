@@ -57,10 +57,17 @@ https://github.com/Petexy/linexin-installer
 * SSD storage
 * Broadband internet connection
 
+## Building ISO
+
+```bash
+sudo mkarchiso -v -r -w ./work -o ./out .     
+```
+in main directory (that with profiledef.sh)
+ISO will appear in "out" directory
 
 ## Installation
 
-1. Download the latest ArqOS ISO image.
+1. Download or build the latest ArqOS ISO image.
 2. Create a bootable USB drive.
 3. Boot the target system from the USB device.
 4. Launch the ArqOS Installer.

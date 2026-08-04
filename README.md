@@ -2,6 +2,8 @@
 
 ArqOS is an Arch Linux-based distribution focused on performance, simplicity, and user control while preserving the core Arch philosophy. The project aims to provide a lightweight and flexible system with sensible defaults, allowing users to build their environment according to their needs.
 
+![Logo ArqOS](screenshots/screenshot.png)
+
 ## Website
 
 https://igi11111.github.io/ArqOS/

@@ -22,7 +22,7 @@ os-prober
 refind
 syslinux
 edk2-shell
-plymouth
+# plymouth
 
 # =========================================================
 # FILE SYSTEM / STORAGE
@@ -180,6 +180,8 @@ discover
 flatpak
 wine
 arq-pkg-manager
+htop
+kate
 # electron22
 # sonixd-bin
 # bombelium-benchmark
@@ -198,6 +200,8 @@ xorg-xinit
 kwin-x11
 xdg-desktop-portal-kde
 kvantum
+plasma-pa
+spectacle
 
 # =========================================================
 # GTK / PYTHON (INSTALLER)
@@ -225,6 +229,13 @@ systemd-resolvconf
 # =========================================================
 b43-fwcutter
 broadcom-wl
+
+# =========================================================
+# BLUETOOTH
+# =========================================================
+bluez
+bluez-utils
+bluedevil
 
 # =========================================================
 # DRIVERS

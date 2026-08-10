@@ -1,5 +1,2 @@
 [Daemon]
 Theme=arq
-# Administrator customizations go in this file
-#[Daemon]
-#Theme=fade-in
